@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.electromatt.quiz.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Geometry Quiz"
+            android:id="@+id/textView"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:id="@+id/q1"
+            android:text="1: The distance from the center of a circle to its edge is called what?"
+            style="@style/HeaderTextStyle" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="diameter"
+                android:id="@+id/q1a1"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="radius"
+                android:id="@+id/q1a2"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="length"
+                android:id="@+id/q1a3"
+                android:textSize="16sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:id="@+id/q2"
+            android:text="2: How many sides does a hexagon have?"
+            style="@style/HeaderTextStyle" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="5"
+                android:id="@+id/q2a1"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="7"
+                android:id="@+id/q2a2"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="6"
+                android:id="@+id/q2a3"
+                android:textSize="16sp"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:id="@+id/q3"
+            android:text="3: A square has four...? (Multiple Choice)"
+            style="@style/HeaderTextStyle" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Right Angles"
+                android:id="@+id/q3a1"
+                android:textSize="16sp"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Equal Length Sides"
+                android:id="@+id/q3a2"
+                android:textSize="16sp"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Corners"
+                android:id="@+id/q3a3"
+                android:textSize="16sp"/>
+
+
+        <TextView
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:id="@+id/q4"
+            android:text="4: A concave shape bends inwards."
+            style="@style/HeaderTextStyle" />
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="True"
+                android:id="@+id/q4a1"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="False"
+                android:id="@+id/q4a2"
+                android:textSize="16sp"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:id="@+id/q5"
+            android:text="5: How many sides does a octagon have?"
+            style="@style/HeaderTextStyle" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/q5a1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="16sp"
+            android:text="Submit Answers"
+            android:onClick="submitAnswers" />
+
+
+    </LinearLayout>
+</ScrollView>
