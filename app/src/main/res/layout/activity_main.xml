@@ -22,8 +22,8 @@
             android:gravity="center_horizontal" />
 
         <TextView
-            android:layout_marginTop="16sp"
-            android:layout_marginBottom="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:id="@+id/q1"
             android:text="1: The distance from the center of a circle to its edge is called what?"
             style="@style/HeaderTextStyle" />
@@ -55,8 +55,8 @@
         </RadioGroup>
 
         <TextView
-            android:layout_marginTop="16sp"
-            android:layout_marginBottom="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:id="@+id/q2"
             android:text="2: How many sides does a hexagon have?"
             style="@style/HeaderTextStyle" />
@@ -89,8 +89,8 @@
 
 
         <TextView
-            android:layout_marginTop="16sp"
-            android:layout_marginBottom="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:id="@+id/q3"
             android:text="3: A square has four...? (Multiple Choice)"
             style="@style/HeaderTextStyle" />
@@ -118,8 +118,8 @@
 
 
         <TextView
-            android:layout_marginTop="16sp"
-            android:layout_marginBottom="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:id="@+id/q4"
             android:text="4: A concave shape bends inwards."
             style="@style/HeaderTextStyle" />
@@ -145,8 +145,8 @@
 
 
         <TextView
-            android:layout_marginTop="16sp"
-            android:layout_marginBottom="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:id="@+id/q5"
             android:text="5: How many sides does a octagon have?"
             style="@style/HeaderTextStyle" />
@@ -160,8 +160,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16sp"
-            android:layout_marginBottom="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:text="Submit Answers"
             android:onClick="submitAnswers" />
 
